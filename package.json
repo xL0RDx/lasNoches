@@ -1,0 +1,28 @@
+{
+  "name": "lasnoches",
+  "version": "1.0.0",
+  "description": "This is a sample repo, hello peeps!",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xL0RDx/lasNoches.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xL0RDx/lasNoches/issues"
+  },
+  "homepage": "https://github.com/xL0RDx/lasNoches#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "config": "^3.3.1",
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "express-validator": "^6.6.1",
+    "mongoose": "^5.10.6"
+  }
+}
