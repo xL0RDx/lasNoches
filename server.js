@@ -23,7 +23,7 @@ app.use(
  * @desc Tset endpoint
  */
 app.get('/', (req, res) =>
-    res.send('http get request sent to root api endpint')
+    res.send('http get request sent to root api endpoint')
 );
 
 /**
@@ -51,4 +51,4 @@ app.post(
 
 //connection listener
 const port = 5000;
-app.listen(port, () => console.log('Express server running on port ${port}'));
+app.listen(port, () => console.log('Express server running on port '+port));
